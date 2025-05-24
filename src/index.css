@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fuerza el fondo oscuro */
+.dark {
+  @apply bg-gray-900;
+}
+
+.dark body {
+  @apply bg-gray-900;
+}
